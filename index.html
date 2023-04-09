@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h3><i class="fa-solid fa-cart-shopping"></i> kiraz store</h3>
+            <div class="container-links">
+                <ul>
+                    <li><a href="#home" class="link-1">Home</a></li>
+                    <li><a href="#about" class="link-2">about us</a></li>
+                    <li><a href="#services" class="link-3">services</a></li>
+                    <li><a href="#shop" class="link-4">shop</a></li>
+                    <li><a href="#contact" class="link-5">contact</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button><i class="fa-brands fa-shopify"></i>ordered now</button>
+            </div>
+        </nav>
+        <div class="container-2">
+            <div class="information-container">
+                <h3>it's me kiraz</h3>
+                <p> a person who's love the cooking</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum inventore <br> incidunt, facere
+                    consectetur, cupiditate odit natus dignissimos nesciunt iusto culpa <br> animi quos alias
+                    voluptatibus. Quasi, commodi? Nostrum, dolorem impedit.</p>
+                <div class="icons-container">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="subscribe-container">
+                    <input type="search" name="search" id="search" placeholder="subscribe for all new news">
+                    <button>subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="first-container">
+            <div class="icons-container">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="information">
+                <h3>get to know us!</h3>
+                <p>we are as a company and what drives us. From our humble beginnings to our current goals and values,
+                    we aim to provide you with a deeper understanding of what we stand for and what makes us unique.
+                    Whether you're a customer, a partner, or just curious, we invite you to explore this section and get
+                    to know us better. Discover our team, our history, and our vision for the future, and see how we can
+                    work together to make a difference.</p>
+                <div class="subscribe-container">
+                    <input type="search" name="search" id="search" placeholder="subscribe for all new news">
+                    <button>subscribe</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- services container -->
+    <div id="services">
+        <div class="search-container">
+            <input type="search" name="search" id="search" placeholder="search for available services">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <center>
+            <div class="services-container">
+                <div class="container-services">
+                    <img src="images/background.webp" onclick="taha1()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-2.webp" onclick="taha2()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-3.webp" onclick="taha3()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-4.webp" onclick="taha4()">
+                </div>
+            </div>
+            <div class="services-container active">
+                <div class="container-services">
+                    <img src="images/background-5.webp" onclick="taha5()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-6.webp" onclick="taha6()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-7.webp" onclick="taha7()">
+                </div>
+                <div class="container-services">
+                    <img src="images/background-8.webp" onclick="taha8()">
+                </div>
+            </div>
+        </center>
+    </div>
+    <!-- client -->
+    <div id="shop">
+        <center>
+            <h3 class="title">ordered <span>now</span></h3>
+            <div class="shoping-container">
+                <div class="container-shoping">
+                    <img src="images/shop-1.webp" alt="">
+                    <h3>cup cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-1"><span>quantity</span><br>
+                    <button id="button-1">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/shop-2.webp" alt="">
+                    <h3>sheese cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-2"><span>quantity</span><br>
+                    <button v-if="button-2">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/shop-3.webp" alt="">
+                    <h3>shokolate cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-3"><span>quantity</span><br>
+                    <button id="button-3">add to cart</button>
+                </div>
+            </div>
+            <div class="shoping-container actives">
+                <div class="container-shoping">
+                    <img src="images/shop-4.webp" alt="">
+                    <h3>strawberry cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-4"><span>quantity</span><br>
+                    <button id="button-4">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/shop-5.webp" alt="">
+                    <h3>shokolate cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-5"><span>quantity</span><br>
+                    <button id="button-5">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/shop-6.webp" alt="">
+                    <h3>strawberry cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-6"><span>quantity</span><br>
+                    <button id="button-6">add to cart</button>
+                </div>
+            </div>
+            <div class="shoping-container actives-1">
+                <div class="container-shoping">
+                    <img src="images/shop-7.webp" alt="">
+                    <h3>Donuts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-7"><span>quantity</span><br>
+                    <button id="button-7">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/services-8.webp" alt="">
+                    <h3>cup cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-8"><span>quantity</span><br>
+                    <button id="button-8">add to cart</button>
+                </div>
+                <div class="container-shoping">
+                    <img src="images/services-9.webp" alt="">
+                    <h3>shokolate cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus, itaque eum adipisci, ipsum
+                    </p>
+                    <input type="number" min="1" id="input-9"><span>quantity</span><br>
+                    <button id="button-9">add to cart</button>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!-- contact -->
+     <div id="contact">
+        <div class="contact-us">
+            <div class="contact-container-1"></div>
+            <div class="contact-container-2">
+                <div class="button-continue">
+                    <button class="face"><i class="fa-brands fa-facebook"></i>continue with facebook</button>
+                    <br>
+                    <button class="apple"><i class="fa-brands fa-apple"></i>continue with apple</button>
+                </div>
+                <p class="or">or</p>
+                <div class="container-information-sign-up">
+                    <h3 class="title-x">contact us</h3>
+                    <form >
+                        <input type="text" name="name" id="name" placeholder="name">
+                        <br>
+                        <textarea name="message" placeholder="write a message"></textarea><br>
+                        <button>send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <br><br>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    // total calculation
+
+    // sweet alert javascript code
+    swal("welcome in kiraz shopping website");
+    function taha1() {
+        swal({
+            title: "Custom Cake Orders",
+            text: "Customers can place custom cake orders for special occasions like weddings, birthdays, anniversaries, or corporate events. Cake websites may have a variety of designs to choose from, or customers can work with a designer to create a one-of-a-kind cake.",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha2() {
+        swal({
+            title: "Cake Delivery",
+            text: "Many cake websites offer delivery services to make it easier for customers to get their cakes. Some may offer free delivery within a certain radius, while others may charge a fee for delivery",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha3() {
+        swal({
+            title: "Cake Decorating Classes",
+            text: "Cake websites may offer cake decorating classes for customers who want to learn how to create their own cakes. These classes may be offered in-person or online, and can range from beginner to advanced levels.",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha4() {
+        swal({
+            title: "Cake Tastings",
+            text: "Some cake websites may offer cake tastings, where customers can sample different flavors and styles of cakes before placing an order. This can be especially helpful for customers who are unsure of what type of cake they want for their event.",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha5() {
+        swal({
+            title: "Catering Services",
+            text: "In addition to cakes, some cake websites may also offer catering services for events. This can include appetizers, desserts, and other baked goods",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha6() {
+        swal({
+            title: "Cake Accessories",
+            text: "Cake websites may also sell accessories for cakes, such as cake toppers, candles, and cake stands. These items can add the perfect finishing touch to a cake for a special occasion.",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha7() {
+        swal({
+            title: "Custom Cake Orders",
+            text: "Customers can place custom cake orders for special occasions like weddings, birthdays, anniversaries, or corporate events. Cake websites may have a variety of designs to choose from, or customers can work with a designer to create a one-of-a-kind cake.",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+    function taha8() {
+        swal({
+            title: "Cake Delivery",
+            text: "Many cake websites offer delivery services to make it easier for customers to get their cakes. Some may offer free delivery within a certain radius, while others may charge a fee for delivery",
+            icon: "success",
+            button: "order this services",
+        });
+    }
+</script>
+
+</html>
